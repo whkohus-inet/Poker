@@ -408,7 +408,7 @@ function htmlEntities(str) {
     return String(str).replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;');
 }
 
-tables[0] = new Table( 0, 'CNY Table 10', eventEmitter(0), 10, 10, 5, 1000, 10, false );
+tables[0] = new Table( 0, 'CNY Table 10', eventEmitter(0), 10, 2, 1, 1000, 10, false );
 /*
 tables[0] = new Table( 0, 'Sample 10-handed Table', eventEmitter(0), 10, 2, 1, 200, 40, false );
 */
