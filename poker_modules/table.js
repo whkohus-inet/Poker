@@ -784,6 +784,9 @@ Table.prototype.endRound = function() {
 		}
 	}
 
+	// Clear the biggerst bet
+	this.public.biggestBet = 0;
+
 	// If there are not enough players to continue the game, stop it
 	if( this.playersSittingInCount < 2 ) {
 		this.stopGame();
